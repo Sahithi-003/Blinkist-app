@@ -1,0 +1,135 @@
+{
+    "Data": [
+      {
+        "src": "assets/biggboss.png",
+        "cardName": "Being Boss",
+        "authorName": "Kathleen Shannon and Emily...",
+        "timeStamp": "13-minute read",
+        "id": 1,
+        "isread": false,
+        "reads": "",
+        "status " : false,
+        "startedBook": false,
+        "startedread": false,
+        "just": false,
+        "audio": false
+      },
+      {
+        "src": "assets/doesntHurt.png",
+        "cardName": "Doesn’t Hurt to Ask",
+        "authorName": "Trey Gowdy",
+        "timeStamp": "13-minute read",
+        "id": 2,
+        "isread": true,
+        "reads": "1.9k reads",
+        "status " : false,
+        "startedBook": false,
+        "just": false,
+        "audio": true,
+        "startedread": false
+      },
+     
+      {
+        "src": "assets/beyondEnterpreneur.png",
+        "cardName": "Beyond Entrepreneurship 2.0",
+        "authorName": "Jim Collins & Bill Lazier",
+        "timeStamp": "15-minute read",
+        "id": 3,
+        "isread": false,
+        "reads": "",
+        "status " : false,
+        "startedBook": false,
+        "just": false,
+        "startedread": false,
+        "audio": true
+      },
+  
+      {
+        "src": "assets/BringYour.png",
+        "cardName": "Bring Your Human to Work",
+        "authorName": "Erica Keswin",
+        "timeStamp": "13-minute read",
+        "id": 4,
+        "isread": false,
+        "reads": "1.9k reads",
+        "status " : false,
+        "startedBook": false,
+        "just": false,
+        "startedread": false,
+        "audio": true
+      },
+      {
+        "src": "assets/EmployeeTo.png",
+        "cardName": "Employee to Entrepreneur",
+        "authorName": "Steve Glaveski",
+        "timeStamp": "15-minute read",
+        "id": 5,
+        "isread": false,
+        "reads": "",
+        "status " : false,
+        "startedBook": false,
+        "just": false,
+        "startedread": false,
+        "audio": false
+      },
+     
+      
+      {
+        "src": "assets/livesOfStoics.png",
+        "cardName": "Lives of the Stoics",
+        "authorName": "Ryan Holiday, Stephen Hansel",
+        "timeStamp": "13-minute read",
+        "id": 6,
+        "isread": false,
+        "reads": "",
+        "status " : false,
+        "startedBook": false,
+        "just": false,
+        "startedread": false,
+        "audio": false
+      },
+      
+      {
+        "src": "assets/LonelyCentury.png",
+        "cardName": "The Lonely Century",
+        "authorName": "Noreena Hertz",
+        "timeStamp": "15-minute read",
+        "id": 7,
+        "isread": false,
+        "reads": "",
+        "status " : false,
+        "startedBook": false,
+        "just": true,
+        "startedread": false,
+        "audio": false
+      },
+      {
+        "src": "assets/EatBetter.png",
+        "cardName": "Eat Better, Feel Better",
+        "authorName": "Giada De Laurentiis",
+        "timeStamp": "13-minute read",
+        "id": 8,
+        "isread": false,
+        "reads": "1.9k reads",
+        "status " : false,
+        "startedBook": false,
+        "just": true,
+        "startedread": false,
+        "audio": false
+      },
+      {
+        "src": "assets/DropShipping.png",
+        "cardName": "Dropshipping",
+        "authorName": "James Moore",
+        "timeStamp": "12-minute read",
+        "id": 9,
+        "isread": false,
+        "reads": "",
+        "status " : false,
+        "startedread": false,
+        "startedBook": false,
+        "just": true,
+        "audio": false
+      }
+    ]
+  }
