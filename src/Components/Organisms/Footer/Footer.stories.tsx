@@ -10,7 +10,7 @@ export default {
   component: Footer,
 } 
 
-const Template: ComponentStory<typeof Footer> = (args) => (
+const Template: ComponentStory<typeof Footer> = () => (
   <ThemeProvider theme={Theme}>
     <MemoryRouter>
         <Footer/>

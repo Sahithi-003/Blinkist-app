@@ -20,7 +20,7 @@ interface Props{
 function Avatars(props: Props) {
     const classes=useStyles();
   return (
-    <Avatar sx={ {bgcolor:'#69A6E3'} } className={classes.avatar}>{props.chars}</Avatar>
+    <Avatar sx={ {bgcolor:'#69A6E3'} } className={classes.avatar} data-testid="Avatar">{props.chars}</Avatar>
   )
 }
 

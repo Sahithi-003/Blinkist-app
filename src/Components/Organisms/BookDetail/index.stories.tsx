@@ -10,5 +10,5 @@ export default {
   export const bookDetails = () => {
 
     return (
-      <BookDetail book={getBooks()[0]} onFinishedClick={getBooks} />
+      <BookDetail book={getBooks()[0]}  />
   );}

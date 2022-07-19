@@ -1,4 +1,4 @@
-import { createTheme } from "@mui/material/styles";
+
 import { makeStyles } from "@material-ui/core";
 
 
@@ -17,7 +17,7 @@ import { makeStyles } from "@material-ui/core";
     backgroundColor: "#F1F6F4",
     marginleft: "618px",
     margintop: "17px",
-
+    fontFamily:"Cera Pro"
   },
    bannerBox: {
     backgroundColor: "#F1F6F4",
@@ -25,7 +25,7 @@ import { makeStyles } from "@material-ui/core";
     marginTop: "32px",
     height: "264px",
     width: "912px",
-
+    fontFamily:"Cera Pro"
 
   },
   explorecontent: {
@@ -37,13 +37,21 @@ import { makeStyles } from "@material-ui/core";
     fontweight: "400",
     lineheight: "23px",
     textalign: "left",
-
-
-
   },
   headerLink:{
-    display: "flex", alignItems: "center", color: "#03314B" ,textTransform:"none",
-
+   
+    display: "flex", 
+    alignItems: "center", 
+    color: "#03314B" ,
+    textTransform:"none",
+    fontFamily:"Cera Pro",
+    width:"auto",
+   
+    "&:hover": {
+      backgroundColor: "white",
+      borderBottom: "solid 3px #22C870",
+      justifyContent:"center",
+    }
   },
   exploretitle: {
     height:"90px",
@@ -65,6 +73,7 @@ import { makeStyles } from "@material-ui/core";
   },
   iconText: {
     color: "#6D787E",
+    fontFamily:"Cera Pro"
   },
   bookTitle: {
     fontSize: "18px",
@@ -84,7 +93,7 @@ import { makeStyles } from "@material-ui/core";
     fontsize: "16px",
     fontweight: "500",
     lineheight: "20px",
-    
+    fontFamily:"Cera Pro"
 
   },
   toggletabs:{
@@ -141,6 +150,7 @@ import { makeStyles } from "@material-ui/core";
     borderRadius: "4px",
     width: "122px",
     height: "44px",
+    fontFamily:"Cera Pro"
   },
   
   finishedReading: {
@@ -148,6 +158,7 @@ import { makeStyles } from "@material-ui/core";
     borderRadius: "4px",
     width: "170px",
     height: "44px",
+    fontFamily:"Cera Pro",
     color: "#03314B",
     "&:hover": {
       background: "#00C263",
@@ -159,6 +170,7 @@ import { makeStyles } from "@material-ui/core";
     width: "151px",
     fontWeight: 400,
     height: "44px",
+    fontFamily:"Cera Pro"
   },
   addToLib: {
     height: "20px",
@@ -176,6 +188,7 @@ import { makeStyles } from "@material-ui/core";
     color: "#0365F2",
     fontWeight: 500,
     fontSize: "16px",
+    fontFamily:"Cera Pro",
     lineHeight: "20.11px",
     "&:hover": {
       color: "white",
@@ -193,23 +206,26 @@ import { makeStyles } from "@material-ui/core";
     borderRadius: "8px",
     width: "300px",
     Height: "466px",
+    fontFamily:"Cera Pro"
   },
   bookInfo: {
     color: "#03314B",
+    fontFamily:"Cera Pro"
   },
   footer: {
     width: "542px",
     height: "224px",
+    fontFamily:"Cera Pro"
   },
   footerNavlinks:{
     
-fontfamily: "Cera Pro",
-fontsize: "16px",
-fontweight: 400,
-lineheight: "24px",
-textalign: "left",
-height: "24px",
-width: "214px",
+    fontfamily: "Cera Pro",
+    fontsize: "16px",
+    fontweight: 400,
+    lineheight: "24px",
+    textalign: "left",
+    height: "24px",
+    width: "214px",
 
 
   },
@@ -219,14 +235,16 @@ width: "214px",
     top: "86px",
     background: "#F1F6F4",
     zIndex:1,
-    width:"100%"
+    width:"100%",
+    fontFamily:"Cera Pro",
+
   },
   hidden: {
     display: "none",
   },
 
   footertitle:{
-    width:"378px",height:"64px",color:"#0365F2",fontsize:"24px",fontweight: "500",lineheight: "32px",textalign:"left"
+    width:"378px",height:"64px",color:"#0365F2",fontFamily:"Cera Pro",fontsize:"24px",fontweight: "500",lineheight: "32px",textalign:"left"
   }
   ,
   footertag:{

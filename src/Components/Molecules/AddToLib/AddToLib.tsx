@@ -3,20 +3,17 @@ import Typography from "@mui/material/Typography"
 import Add from "@mui/icons-material/Add"
 import {Box,Button} from "@mui/material"
 import {makeStyles} from "@mui/styles"
-import {Theme} from "@emotion/react"
 
 interface Props{
     children?: string;
     variant?: "header" | "title" | "subtitle" | "body" | "caption";
+    onFinishedClick: (arg: any) => void;
+ 
 }
 
-const useStyles=makeStyles((theme:Theme) =>({
-    // flexGrow:{
-    //     flex : "1"
-    // },
+const useStyles=makeStyles(() =>({
     button:{
         display:"flex",
-        //flexGrow:1,
         borderTop: "1px #E1ECFC solid",
         padding: "2px",
         justifyContent: "center",
@@ -63,9 +60,9 @@ function AddToLib(props:Props) {
   return (
     <div>
         <Box className={classes.buttonBox}>
-            <Button className={classes.button}>
+            <Button className={classes.button} onClick={props.onFinishedClick} >
                 <Add fontSize="medium" />
-                <Typography variant="body1">Add To Library</Typography>
+                <Typography variant="body1" fontFamily={"Cera Pro"}>Add To Library</Typography>
             </Button>
         </Box>
     </div>

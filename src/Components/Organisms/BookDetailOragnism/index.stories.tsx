@@ -9,10 +9,10 @@ export default {
   component: BookDetailOrganisms,
 };
 const template: ComponentStory<typeof BookDetailOrganisms> = (
-    args,
+    _args,
   ) => (
     <Router>
-      <BookDetailOrganisms book={getBooks()[0]} onFinishedClick={()=>getBooks() } />
+      <BookDetailOrganisms book={getBooks()[0]}  />
     </Router>
 );
 

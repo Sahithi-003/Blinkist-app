@@ -10,7 +10,7 @@ console.log("any msg");
 it("renders Book Read Time molecule", () => {
   render(
     <ThemeProvider theme={Theme}>
-      <BookReadTime children="Add to library" />
+      <BookReadTime />
     </ThemeProvider>,
     {
       wrapper: MemoryRouter,

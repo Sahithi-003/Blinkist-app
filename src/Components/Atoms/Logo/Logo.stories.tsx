@@ -10,5 +10,5 @@ export default {
     component:Logo,
 };
 
-export const Template_Logo : ComponentStory<typeof Logo> = (args)=> <Logo></Logo>;
+export const Template_Logo : ComponentStory<typeof Logo> = (_args)=> <Logo></Logo>;
 

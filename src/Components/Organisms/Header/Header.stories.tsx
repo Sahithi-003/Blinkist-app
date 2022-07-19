@@ -5,7 +5,7 @@ export default {
   title: 'Organisms / Header',
   component: Header,
 };
-const Template: ComponentStory<typeof Header> = (args) => <Header />;
+const Template: ComponentStory<typeof Header> = () => <Header />;
 
 export const header = Template.bind({});
 header.args = {};

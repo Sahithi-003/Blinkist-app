@@ -2,7 +2,7 @@ import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { ThemeProvider } from "@emotion/react";
 import {Theme} from "../../../Themes/Theme";
-import ReadAndFinished from "./ButtonComponent";
+import ReadAndFinished from "./ReadAndFinished";
 
 const ReadandFinishedButton = {
   title: "Atoms/ReadandFinishedButton",

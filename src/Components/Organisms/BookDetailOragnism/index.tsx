@@ -1,7 +1,5 @@
 import ToggleTabs from "../../Molecules/Toggles";
 import BookDetail from "../../Organisms/BookDetail/index";
-import axios from "axios";
-import React, { useEffect, useState } from "react";
 
 type data = {
   id:number,
@@ -21,13 +19,12 @@ type data = {
 
 interface Props{
     book:data
-    onFinishedClick: (arg: data) => void;
 }
 
 function Index(props:Props) {
   return (
-    <div>
-      <BookDetail book={props.book} onFinishedClick={props.onFinishedClick}/>
+    <div data-testid="Book Organism">
+      <BookDetail book={props.book} />
       <ToggleTabs/>
     </div>
   )

@@ -7,7 +7,7 @@ export default {
   title: 'pages/MyLibPage',
   component: MyLibPage,
 };
-const Template: ComponentStory<typeof MyLibPage> = (args) => (
+const Template: ComponentStory<typeof MyLibPage> = () => (
   <Router>
     <MyLibPage />
   </Router>

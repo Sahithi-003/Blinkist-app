@@ -5,7 +5,7 @@ export default {
   title: 'Organisms / Banner',
   component: Banner,
 };
-const Template: ComponentStory<typeof Banner> = (args) => <Banner />;
+const Template: ComponentStory<typeof Banner> = () => <Banner />;
 
 export const banner = Template.bind({});
 banner.args = {};

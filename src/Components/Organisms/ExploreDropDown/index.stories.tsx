@@ -11,7 +11,7 @@ const ExploreDropDownStory = {
   component: ExploreDropDown,
 } as ComponentMeta<typeof ExploreDropDown>;
 
-const Template: ComponentStory<typeof ExploreDropDown> = (args) => (
+const Template: ComponentStory<typeof ExploreDropDown> = () => (
   <ThemeProvider theme={Theme}>
     <MemoryRouter>
       <ExploreDropDown  />

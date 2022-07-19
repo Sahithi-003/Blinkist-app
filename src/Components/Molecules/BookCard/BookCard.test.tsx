@@ -6,19 +6,19 @@ import {Theme} from "../../../Themes/Theme";
 import BookCard from "./BookCard";
 import { getBooks } from "../../../DataBase/DataBase";
 
-// jest.mock("@auth0/auth0-react", () => ({
-//   Auth0Provider: () => {},
-//   withAuthenticationRequired: (component:any) => component,
+jest.mock("@auth0/auth0-react", () => ({
+  Auth0Provider: () => {},
+  withAuthenticationRequired: (component:any) => component,
 
-//   useAuth0: () => {
-//     return {
-//       isAuthenticated: true,
-//       user: { sub: "foobar" },
-//       mockFn: true,
-//       logout: jest.fn(),
-//     };
-//   },
-// }));
+  useAuth0: () => {
+    return {
+      isAuthenticated: true,
+      user: { sub: "foobar" },
+      mockFn: true,
+      logout: jest.fn(),
+    };
+  },
+}));
 
 
 afterEach(cleanup);
@@ -37,8 +37,7 @@ it("renders Book Card author Organism", () => {
       wrapper: MemoryRouter,
     }
   );
-  var Librarybutton = screen.getByText(book.author);
-    Librarybutton = screen.getByText("13-minute read");
+    let Librarybutton = screen.getByText("13-minute read");
   
   expect(Librarybutton).toBeTruthy();
   expect(Librarybutton).toHaveClass("MuiTypography-body1");
@@ -46,4 +45,91 @@ it("renders Book Card author Organism", () => {
   expect(Librarybutton).toBeDefined();
 });
 
-const handleFinish = (arg: any) => {};
+const handleFinish = (_arg: any) => {};
+
+it("renders Book Card title Organism", () => {
+    render(
+      <ThemeProvider theme={Theme}>
+        <BookCard
+          book={book}
+          bookObject={getBooks()}
+          onFinishedClick={handleFinish}
+        />
+      </ThemeProvider>,
+      {
+        wrapper: MemoryRouter,
+      }
+    );
+  
+     let Librarybutton = screen.getByText("13-minute read");
+    
+    expect(Librarybutton).toBeTruthy();
+    expect(Librarybutton).toHaveClass("MuiTypography-body1");
+    expect(Librarybutton).toBeInTheDocument();
+    expect(Librarybutton).toBeDefined();
+  });
+  it("renders Book Card Finished button Organism", () => {
+    render(
+      <ThemeProvider theme={Theme}>
+        <BookCard
+          book={book}
+          bookObject={getBooks()}
+          onFinishedClick={handleFinish}
+          typeOfCard="reading"
+        />
+      </ThemeProvider>,
+      {
+        wrapper: MemoryRouter,
+      }
+    );
+    let Librarybutton = screen.getByText("1.9k reads");
+    
+    expect(Librarybutton).toBeTruthy();
+    expect(Librarybutton).toHaveClass("MuiTypography-body1");
+    expect(Librarybutton).toBeInTheDocument();
+    expect(Librarybutton).toBeDefined();
+  });
+
+  it("renders Book Card Read again button Organism", () => {
+    render(
+      <ThemeProvider theme={Theme}>
+        <BookCard
+          book={book}
+          bookObject={getBooks()}
+          onFinishedClick={handleFinish}
+          typeOfCard="finished"
+        />
+      </ThemeProvider>,
+      {
+        wrapper: MemoryRouter,
+      }
+    );
+    let Librarybutton = screen.getByText(book.author);
+    
+    expect(Librarybutton).toBeTruthy();
+    expect(Librarybutton).toHaveClass("MuiTypography-subtitle2");
+    expect(Librarybutton).toBeInTheDocument();
+    expect(Librarybutton).toBeDefined();
+  });
+
+  it("renders Book Card Add to Library button Organism", () => {
+    render(
+      <ThemeProvider theme={Theme}>
+        <BookCard
+          book={book}
+          bookObject={getBooks()}
+          onFinishedClick={handleFinish}
+          typeOfCard="myLibrary"
+        />
+      </ThemeProvider>,
+      {
+        wrapper: MemoryRouter,
+      }
+    );
+    let Librarybutton = screen.getByText(book.author);
+    expect(Librarybutton).toBeTruthy();
+    expect(Librarybutton).toHaveClass("MuiTypography-subtitle2");
+    expect(Librarybutton).toBeInTheDocument();
+    expect(Librarybutton).toBeDefined();
+  });
+  
