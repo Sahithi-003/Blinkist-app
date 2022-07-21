@@ -7,7 +7,6 @@ type propTypes = {
 
 
  const Finished = ({id}:propTypes) => {
-// export const funct =async ()=>{
 async function addToFinished(){
    
       await  axios.get(`http://localhost:3000/dataBase/${id}`)
@@ -21,8 +20,7 @@ async function addToFinished(){
         )
         ;
   
-        
-       
+  
   }
 
   

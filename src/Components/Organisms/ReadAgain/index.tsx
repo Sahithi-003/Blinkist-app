@@ -12,7 +12,6 @@ type propTypes = {
    
     await  axios.get(`http://localhost:3000/dataBase/${id}`)
       .then(async response=>{
-        
           response.data["status"]="reading";
           console.log(response.data);
           await axios.delete(`http://localhost:3000/dataBase/${id}`)
@@ -36,6 +35,7 @@ type propTypes = {
       color: "#0365F2",
 
     }}
+    data-testid="Banner"
     onClick={addToCurrent}
   >
    Read Again

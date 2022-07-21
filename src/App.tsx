@@ -1,6 +1,6 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import { Box, CircularProgress } from "@mui/material";
-import "./App.css";
+
 import LoginPage from "./LoginPage";
 import Routing from "./Routing";
 

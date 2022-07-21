@@ -27,7 +27,7 @@ const useStyles: any = makeStyles(() => ({
   ListItem: {
     color: '#6D787E',
     paddingLeft: "9px !important",
-    marginTop: "2%",
+    marginTop: "10%",
     textDecoration: "none !important",
     whiteSpace: "nowrap",
     display: "flex",
@@ -65,13 +65,17 @@ const ExploreDropDown = () => {
  
   return (
     <div>
-      <Box maxWidth={"100%"} data-testid="Explore">      
+      <Box maxWidth={"100%"} >      
               <div>
                 <Box
                     py={{ xs: 3, sm: 5 }}
                     px={{ xs: 4, sm: 12 }}
                     bgcolor="#F1F6F4"
                     color="#03314B"
+                    height="398px"
+                    // display="flex"
+                    // justifyContent={"left"}
+                    // alignItems="left"
                   >
                     <Box
                       sx={{
@@ -85,13 +89,7 @@ const ExploreDropDown = () => {
                         <Grid container spacing={5} className={classes.Grid} data-testid="Explore headings">
                           <Grid item xs={12} sm={4}>
                             <Box
-                              sx={{
-                                height: "24px",
-                                color: "#116BE9",
-                                // ":hover": {
-                                //   color: "blue !important",
-                                // },
-                              }}
+                              sx={{ color: "#116BE9 !important", fontWeight: "Bold" }}
                               className={classes.ListItem}
 
                             >
@@ -122,6 +120,7 @@ const ExploreDropDown = () => {
                           <Grid item xs={12} sm={4}>
                                 <Box
                                 className={classes.ListItem}
+                              
                                 sx={{
                                     ":hover": {
                                     color: "#116BE9 !important",
@@ -133,7 +132,7 @@ const ExploreDropDown = () => {
                                 to={"/explore"}
                   
                               >
-                                <Typography fontFamily={"Cera Pro"}
+                                <Typography fontFamily={"Cera Pro"} marginLeft="2%"
                                   sx={{
                                     "&:hover": {
                                       color: "#116BE9",
@@ -149,21 +148,21 @@ const ExploreDropDown = () => {
                             <Box className={classes.ListItem}>
                             <Icon src={ScienceOutlinedIcon} />
                             
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
-                              Science
+                              <Typography color="inherit" marginLeft="4%" fontFamily={"Cera Pro"}>
+                                      Science
                               </Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                                 <Icon src={PublicOutlinedIcon} />
                             {/* <img className={classes.micon} src={props.src} alt='add' /> */}
                               {/* <PublicOutlinedIcon /> */}
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography color="inherit" marginLeft="4%" fontFamily={"Cera Pro"}>
                               Economics
                               </Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                               <Icon src={BusinessCenterOutlinedIcon} />
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography color="inherit" marginLeft="4%" fontFamily={"Cera Pro"}>
                               Corporate Culture
                               </Typography>
                             </Box>
@@ -173,7 +172,7 @@ const ExploreDropDown = () => {
                             </Box>
                             <Box className={classes.ListItem}>
                             <Icon src={EnergySavingsLeafOutlinedIcon }/>
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography color="inherit" marginLeft="4%" fontFamily={"Cera Pro"}>
                               Nature & Environment
                               </Typography>
                             </Box>
@@ -182,80 +181,80 @@ const ExploreDropDown = () => {
                           <Grid item xs={12} sm={4} data-testid="Explore second column">
                             <Box className={classes.ListItem}>
                             <Icon src={AccountBalanceOutlinedIcon}/>
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography color="inherit" marginLeft="4%" fontFamily={"Cera Pro"}>
                               Politics
                               </Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                             <Icon src={MedicationLiquidOutlinedIcon}/>
                             
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography color="inherit" marginLeft="4%" fontFamily={"Cera Pro"}>
                               Health & Nutrition
                               </Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                             <Icon src={HistoryEduOutlinedIcon}/>
                               
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography marginLeft="4%" color="inherit" fontFamily={"Cera Pro"}>
                               History
                               </Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                             <Icon src={TipsAndUpdatesOutlinedIcon}/>
                             
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>Motivation & Inspiration</Typography>
+                              <Typography marginLeft="4%" color="inherit" fontFamily={"Cera Pro"}>Motivation & Inspiration</Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                             <Icon src={HourglassBottomOutlinedIcon}/>
                 
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>Productivity</Typography>
+                              <Typography marginLeft="4%" color="inherit" fontFamily={"Cera Pro"}>Productivity</Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                             <Icon src={ModeStandbyOutlinedIcon }/>
                              
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>Career & Success</Typography>
+                              <Typography marginLeft="4%" color="inherit" fontFamily={"Cera Pro"}>Career & Success</Typography>
                             </Box>
                           </Grid>
                           <Grid item xs={12} sm={4}  data-testid="Explore third column">
                             <Box className={classes.ListItem}>
                             <Icon src={TimelineOutlinedIcon }/>
                               
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography marginLeft="2%" color="inherit" fontFamily={"Cera Pro"}>
                               Marketing & Sales
                               </Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                             <Icon src={EqualizerOutlinedIcon}/>
                               
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography marginLeft="4%" color="inherit" fontFamily={"Cera Pro"}>
                               Personal Development
                               </Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                             <Icon src={ChatBubbleOutlineOutlinedIcon }/>
                               
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography marginLeft="4%" color="inherit" fontFamily={"Cera Pro"}>
                               Communication Skills
                               </Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                             <Icon src={CurrencyRupeeOutlinedIcon }/>
                               
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography marginLeft="4%" color="inherit" fontFamily={"Cera Pro"}>
                               Money & Investments
                               </Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                                 <Icon  src={VolunteerActivismOutlinedIcon}/>
                               
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography marginLeft="4%" color="inherit" fontFamily={"Cera Pro"}>
                               Sex & Relationship
                               </Typography>
                             </Box>
                             <Box className={classes.ListItem}>
                             <Icon  src={WorkspacePremiumOutlinedIcon}/>
                               
-                              <Typography color="inherit" fontFamily={"Cera Pro"}>
+                              <Typography marginLeft="4%" color="inherit" fontFamily={"Cera Pro"}>
                               Education
                               </Typography>
                             </Box>

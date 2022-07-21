@@ -81,7 +81,7 @@ export default function BookDetail(props:Props) {
             </Typography>
           </Grid>
           <Grid item data-testid="Book quote">
-            <Typography fontFamily={"Cera Pro"} variant="subtitle2" sx={{ fontWeight: 400 }}  className={classes.bookInfo} >
+            <Typography fontFamily={"Cera Pro"} variant="subtitle2" sx={{ fontWeight: 400 }} fontSize={"20px"}  className={classes.bookInfo} >
               Turning Your Business into an Enduring Great Company
             </Typography>
           </Grid>
@@ -93,26 +93,26 @@ export default function BookDetail(props:Props) {
           </Grid>
           <Grid item data-testid="Book read time">
           <Typography sx={{display:"flex",color: "#6D787E"}} fontFamily={"Cera Pro"}>
-            <Icon fontSize="small"/>  {props.book.readTime}-minutes read
+            <Icon fontSize="small"/>  { props.book.readTime}-minutes read
             </Typography>
           </Grid>
         </Grid>
         <Grid item container sx={{ marginTop: "40px" }} columnSpacing={4} >
-          <Grid item>
-          <Link to="/" style={{ textDecoration: "none" }}>
-          <Button variant="outlined"  className={`${classes.buttonstyle} ${classes.readNowButton}`} onClick={addToCurrent}>
+          <Grid item paddingTop="5%" >
+          <Link to={props.book.status !== "reading" ? "/" : ""} style={{ textDecoration: "none" }}>
+          <Button variant="outlined"  className={`${classes.buttonstyle} ${classes.readNowButton}`} onClick={addToCurrent} disabled={props.book.status!=="reading"?false:true}>
             Read now
          </Button>     
          </Link>
           </Grid>
-          <Grid item>
-          <Link to="/" style={{ textDecoration: "none"}}>
-          <Button variant="text" className={`${classes.buttonstyle} ${classes.finishedReading}`} onClick={addToFinished} >
+          <Grid item paddingTop="5%" >
+          <Link to={props.book.status === "reading" ? "/" : ""} style={{ textDecoration: "none"}}>
+          <Button variant="text" className={`${classes.buttonstyle} ${classes.finishedReading}`} onClick={addToFinished} disabled={props.book.status==="reading"?false:true} >
                Finished Reading 
             </Button>
             </Link>
           </Grid>
-          <Grid item>
+          <Grid item paddingTop="5%" >
             <Button
               variant="text" 
               endIcon={<ArrowForward></ArrowForward>}
@@ -124,7 +124,7 @@ export default function BookDetail(props:Props) {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item md={4}>
+      <Grid item md={4} paddingTop="8%" paddingLeft="16%">
         <img src={require(`../../../stories/assets/cardsImages/${props.book.imageLink}`)}     alt="Entrepreneur Cover" />
       </Grid>
     </Grid>

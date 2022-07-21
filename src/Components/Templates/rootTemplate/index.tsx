@@ -15,6 +15,8 @@ export const useStyles = makeStyles({
     position: 'absolute',
     height: '86px',
     width: '100%',
+    paddingLeft:"10px",
+    alignItems:'left',
     paddingTop:'30px'
   },
   body: {
@@ -30,13 +32,14 @@ export type MyProps = {
   footer: React.ReactNode;
 };
 const RootTemplate = (props: MyProps) => {
+  
   return (
-    
-    <Grid item container direction="column" sx={{textAlign:'left'}}>
-        <Grid item  sx={{display:'flex', justifyContent:'center'}}>
+   
+    <Grid item container direction="column" sx={{textAlign:'left',justifyContent:'center'}}>
+        <Grid item  >
             {props.header}
         </Grid>
-        <Grid item  sx={{display:'flex', justifyContent:'left',paddingLeft:'10%'}}>
+        <Grid item  sx={{display:'flex', justifyContent:'center'}}>
             {props.body}
         </Grid>
         <Grid item sx={{backgroundColor:"#F1F6F4", display:'flex', justifyContent:'center', mt:'60px'}} >

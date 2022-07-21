@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import ToggleTabs from "../../Molecules/Toggles";
 import BookDetail from "../../Organisms/BookDetail/index";
 
@@ -24,8 +25,11 @@ interface Props{
 function Index(props:Props) {
   return (
     <div data-testid="Book Organism">
+       <Box paddingLeft={"4%"} >
       <BookDetail book={props.book} />
+      </Box>
       <ToggleTabs/>
+     
     </div>
   )
 }

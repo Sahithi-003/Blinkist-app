@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import {useParams} from "react-router-dom"
 import {getBooks} from "../../../DataBase/DataBase"
 import axios from "axios"
+import { Box } from '@mui/material';
 
 type data = {
   id:number,
@@ -44,9 +45,16 @@ const BookDetailPage = () => {
 
   return (
     <ParentTemplate
-      header={<Header></Header>}
+      header={
+        <Box paddingLeft={"8%"}>
+      <Header/>
+
+     </Box>
+    }
       body={
+       
         <BookDetailOrganism   book={bookData}></BookDetailOrganism>
+        
       }
       footer={<Footer></Footer>}
     />

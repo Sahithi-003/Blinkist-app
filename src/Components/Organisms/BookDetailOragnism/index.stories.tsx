@@ -16,8 +16,9 @@ const template: ComponentStory<typeof BookDetailOrganisms> = (
     </Router>
 );
 
-  export const bookDetailOrganism = template.bind({});
-  bookDetailOrganism.args = {
-  }
+  // export const bookDetailOrganism = template.bind({});
+  // bookDetailOrganism.args = {
+  // }
 
-
+  
+   

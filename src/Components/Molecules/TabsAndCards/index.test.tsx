@@ -1,5 +1,5 @@
 import { ThemeProvider } from "@emotion/react";
-import { cleanup, render, screen } from "@testing-library/react";
+import { cleanup, render, screen ,fireEvent} from "@testing-library/react";
 import React from "react";
 import { MemoryRouter } from "react-router-dom";
 import {Theme }from "../../../Themes/Theme";
@@ -8,7 +8,7 @@ import TabsandCardState from "./index";
 
 afterEach(cleanup);
 
-const handleFinish = (_arg: any) => {};
+const handleFinish = () => {};
 
 it("renders Reading Card State Organism", () => {
   render(
@@ -94,3 +94,4 @@ it("renders Explore Card State Organism", () => {
   expect(tabState[0]).toBeInTheDocument();
   expect(tabState[0]).toBeDefined();
 });
+

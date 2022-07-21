@@ -26,29 +26,72 @@ type Book = {
 interface BlinkistTabsProps {
   // bookList:Book[];
   value: string;
-  onFinishedClick: (arg: Book) => void;
+  onFinishedClick: () => void;
   bookObject: Array<Book>;
 }
 
 const useStyles = makeStyles(() => ({
   TabBox: {
-    
     padding: "0 0px",
     borderBottom: "0",
     borderColor: "#22C870",
-    fontFamily:"Cera Pro"
+    justifyContent:"left"
   },
   TabPanel: {
-    padding: "30px 0px !important",
-    // padding: "30px 0px",
-    fontFamily:"Cera Pro"
+    // padding: "10px 0px !important",
+    color:"green",
+    alignItems:"left",
+    justifyContent:"left"
   },
   Tab: {
-    width: "25%",
-    paddingLeft: "0px !important",
-    whiteSpace:"nowrap",
-    fontFamily:"Cera Pro"
+  width: "200px",
+    height: "23px",
+
+    fontFamily: "Cera Pro",
+    fontStyle: "normal",
+    fontSize: "18px",
+    lineHeight: "23px",
+    justifyContent:"left",
+    alignItems: "left",
+    textTransform: "none",
+
+    "&:focus": {
+      color: "#22C870",
+    },
   },
+  // TabBox: {
+    
+  //   padding: "0 0px",
+  //   borderBottom: "0",
+  //   // borderColor: "#22C870",
+  //   fontFamily:"Cera Pro"
+  // },
+  // TabPanel: {
+  //   padding: "30px 0px !important",
+  //   width:"100%",
+  //   // padding: "30px 0px",
+  //   fontFamily:"Cera Pro"
+  // },
+  // Tab: {
+  //   width: "200px",
+  //   height: "23px",
+
+  //   fontFamily: "Cera Pro",
+  //   fontStyle: "normal",
+  //   fontSize: "18px",
+  //   lineHeight: "23px",
+  //   justifyContent:"left",
+  //   alignItems: "flex-start",
+  //   textTransform: "none",
+
+  //   "&:focus": {
+  //     color: "#22C870",
+  //   },
+    // width: "65%",
+    // paddingLeft: "0px !important",
+    // whiteSpace:"nowrap",
+    // fontFamily:"Cera Pro"
+  // },
 }));
 
 export default function BlinkistTabs(props: BlinkistTabsProps) {
@@ -67,7 +110,7 @@ export default function BlinkistTabs(props: BlinkistTabsProps) {
         flexWrap: "wrap",
         margin:"10px",
         padding:"50px",
-        color:"#22C870"
+        // color:"#22C870"
       }}>
           <TabList
             onChange={handleChange}
@@ -97,14 +140,14 @@ export default function BlinkistTabs(props: BlinkistTabsProps) {
         <TabPanel value="1" className={classes.TabPanel} data-testid={"tab-panel1"}>
           <TabsandCardState
             type="reading"
-            onFinishedClick={(book)=>props.onFinishedClick(book)}
+            onFinishedClick={()=>props.onFinishedClick()}
             books={props.bookObject}
           />
         </TabPanel>
         <TabPanel value="2" className={classes.TabPanel} data-testid={"tab-panel2"}>
           <TabsandCardState
             type="finished"
-            onFinishedClick={(book)=>props.onFinishedClick(book)}
+            onFinishedClick={()=>props.onFinishedClick()}
             books={props.bookObject}
           />
         </TabPanel>

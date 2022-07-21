@@ -42,4 +42,20 @@ it("renders Entrepeneuship page", () => {
   expect(tabState[0]).toBeTruthy();
   expect(tabState[0]).toBeInTheDocument();
   expect(tabState[0]).toBeDefined();
+  
+});
+
+test("Testing login button", () => {
+  render(
+    <ThemeProvider theme={Theme}>
+      <MemoryRouter
+        initialEntries={[{ pathname: "/", state: getBooks() }]}
+      >
+        <MyLibPage />
+      </MemoryRouter>
+    </ThemeProvider>
+    );
+  // eslint-disable-next-line testing-library/await-async-query
+  const element = screen.findByLabelText("Finished");
+  expect(element).toBeTruthy();
 });

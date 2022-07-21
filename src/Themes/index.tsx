@@ -40,13 +40,14 @@ import { makeStyles } from "@material-ui/core";
   },
   headerLink:{
    
-    display: "flex", 
+    display: "flex",
+    fontFamily:"Cera Pro",
+    // fontWeight:"500",
     alignItems: "center", 
+    fontSize:"16px",
     color: "#03314B" ,
     textTransform:"none",
-    fontFamily:"Cera Pro",
     width:"auto",
-   
     "&:hover": {
       backgroundColor: "white",
       borderBottom: "solid 3px #22C870",
@@ -101,18 +102,19 @@ import { makeStyles } from "@material-ui/core";
     fontfamily: "Cera Pro",
     fontsize: "16px",
     fontweight: 400,
-    lineheight: "20px",
-  
+    lineheight: "10px",
+    textAlign:"left",
+    justifyContent:"left",
+    alignItems:"left",
     height:"20px",
     "&:hover":{Color: "#03314B"},
-    margin: "16px 0px",
+    margin: "0px 0px",
     textTransform: "none",
   },
   toggleContent:{
     color: "#03314B",
     fontFamily: 'Cera Pro',
     fontStyle: 'normal',
-
     fontSize: '16px',
     lineHeight: '20px',
   },
@@ -170,7 +172,8 @@ import { makeStyles } from "@material-ui/core";
     width: "151px",
     fontWeight: 400,
     height: "44px",
-    fontFamily:"Cera Pro"
+    fontFamily:"Cera Pro",
+    whiteSpace:"nowrap"
   },
   addToLib: {
     height: "20px",
@@ -231,9 +234,9 @@ import { makeStyles } from "@material-ui/core";
   },
   visible: {
     position:"absolute",
-    height: "380px",
-    top: "86px",
-    background: "#F1F6F4",
+    height: "1000%",
+    // top: "86px",
+    // background: "#F1F6F4",
     zIndex:1,
     width:"100%",
     fontFamily:"Cera Pro",

@@ -9,7 +9,7 @@ function Routing() {
     return (
         <Router>
         <Routes>
-        <Route  path='/' element={<MyLibPage/>} data-testid="Banner"></Route>
+        <Route  path='/' element={<MyLibPage/>} data-testid="page1"></Route>
         <Route  path='/explore' element={<EntrepreneurshipPage />}></Route>
         {/* <Route  path={`/explore/bookdetails/${Id}`} element={<BookDetailPage />}></Route> */}
         <Route  path='/explore/bookdetails/:id' element={<BookDetailPage />}></Route>

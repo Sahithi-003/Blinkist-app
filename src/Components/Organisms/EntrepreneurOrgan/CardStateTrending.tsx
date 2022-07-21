@@ -64,6 +64,7 @@ const CardStateTrending = (props: CardStateTrendingProps) => {
         
           onFinishedClick={() => {addToFinished(book.id)}}
           // onFinishedClick={() => {handleClick(book.id)}}
+          data-testid="onClick"
             book={book}
             typeOfCard={buttonType} 
             bookObject={props.books}/>

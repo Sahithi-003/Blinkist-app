@@ -45,15 +45,16 @@ const MyLibPage = () => {
       })
       .catch((error: any) => console.log(error));
   }, []);
+
   return (
     <React.Fragment>
     <RootTemplate
       header={<Header></Header>}
       body={
-        <Box style={{display:'flex', flexDirection:'column', width:'1000px'}}>
+        <Box style={{display:'flex', flexDirection:'column',width:'1100px',paddingLeft:'5%'}}>
         
-          <Typography variant='h5' fontFamily="Cera Pro" fontWeight={"medium"} fontSize="36px">My Library</Typography> 
-          <Tabs value={'1'} bookObject={bookData} onFinishedClick={()=>setBookData} data-testid="tabs"/>
+          <Typography variant='h5' fontFamily="Cera Pro" fontWeight={"medium"} fontSize="36px" paddingBottom={"3%"} paddingLeft={"2%"}>My Library</Typography> 
+          <Tabs value={'1'} bookObject={bookData} onFinishedClick={()=>setBookData} data-testid="tabs" />
         </Box>
       }
       footer={<Footer></Footer>}

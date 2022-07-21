@@ -17,7 +17,7 @@ export default function ToggleTabs() {
   const classes=customStyles();
 
   return (
-    <Box sx={{ width: '100%', typography: 'body1' }}>
+    <Box sx={{ width: '100%', typography: 'body1' }} data-testid="Banner">
       <TabContext value={value}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <TabList onChange={handleChange} TabIndicatorProps={{style: { background: "#2CE080",color:"#03314B",height: 3}}}>

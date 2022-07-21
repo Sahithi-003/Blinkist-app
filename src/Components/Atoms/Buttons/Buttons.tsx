@@ -194,7 +194,6 @@ function Buttons(props: Props) {
   }
 
   return (
-    <StyledEngineProvider injectFirst>
       <Button data-testid="button test"
         variant="contained"
         className={className}
@@ -205,7 +204,7 @@ function Buttons(props: Props) {
       >
         {props.name}
       </Button>
-    </StyledEngineProvider>
+    
   );
 }
 

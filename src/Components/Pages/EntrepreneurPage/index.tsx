@@ -49,17 +49,11 @@ const EntrepreneurshipPage = () => {
           <Banner/>
         <SearchBar/>
          <Typography variant="h5" fontFamily={"Cera Pro"} fontWeight={"medium"}>Trending blinks</Typography>
-        <CardStateTrending type={'trendingBlinks'} onFinishedClick={function (_arg: data): void {
-          throw new Error('Function not implemented.');
-        } } books={bookData} />
+        <CardStateTrending type={'trendingBlinks'} onFinishedClick={handleClick } books={bookData} />
         <Typography variant="h5" fontFamily="Cera Pro" fontWeight={"medium"}>Just added</Typography>
-         <CardStateTrending type={'JustAdd'} onFinishedClick={function (_arg: data): void {
-          throw new Error('Function not implemented.');
-        } } books={bookData} />
+         <CardStateTrending type={'JustAdd'} onFinishedClick={handleClick } books={bookData} />
         <Typography variant="h5" fontFamily={"Cera Pro"} fontWeight={"medium"}>Featured audio Blinks</Typography>
-        <CardStateTrending type={'featured'} onFinishedClick={function (_arg: data): void {
-          throw new Error('Function not implemented.');
-        } } books={bookData} />
+        <CardStateTrending type={'featured'} onFinishedClick={handleClick } books={bookData} />
         </Box>
   
       }
@@ -70,3 +64,5 @@ const EntrepreneurshipPage = () => {
 };
 export default EntrepreneurshipPage;
 
+
+const handleClick = (_arg: any) => {};

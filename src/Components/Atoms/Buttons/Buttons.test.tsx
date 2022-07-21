@@ -56,3 +56,21 @@ it("Check for ExploreNoH Button", async()=>{
     const MuiElement = screen.getByText(/Connect/i);
     expect(MuiElement).toBeInTheDocument();
 })
+
+it("Check for finished Button", async()=>{
+    render(<Buttons name={"Connect"} onClick={undefined} classing={"finished"} icon={undefined} end={undefined}/>);
+    const MuiElement = screen.getByText(/Connect/i);
+    expect(MuiElement).toBeInTheDocument();
+})
+
+it("Check for reading Button", async()=>{
+    render(<Buttons name={"Connect"} onClick={undefined} classing={"readNow"} icon={undefined} end={undefined}/>);
+    const MuiElement = screen.getByText(/Connect/i);
+    expect(MuiElement).toBeInTheDocument();
+})
+
+it("Check for readAgain Button", async()=>{
+    render(<Buttons name={"Connect"} onClick={undefined} classing={"readAgain"} icon={undefined} end={undefined}/>);
+    const MuiElement = screen.getByText(/Connect/i);
+    expect(MuiElement).toBeInTheDocument();
+})

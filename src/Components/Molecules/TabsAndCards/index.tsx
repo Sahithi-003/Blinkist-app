@@ -2,7 +2,7 @@ import { Box } from '@mui/material'
 import BookCard from "../BookCard/BookCard"
 interface TabsandCardStateProps {
   type: string;
-  onFinishedClick:(arg:Book)=>void;
+  onFinishedClick:()=>void;
   books:Array<Book>;
 }
 
@@ -41,8 +41,9 @@ const TabsandCardState = (props:TabsandCardStateProps) => {
             {(type === status ) &&
             <BookCard
           //  key={book.author+book.title}
-            onFinishedClick={() => props.onFinishedClick(book)}
+            onFinishedClick={props.onFinishedClick}
             // onFinishedClick={handleFinishedClick}
+            data-testid="click"
               book={book}
               typeOfCard={props.type} 
               bookObject={props.books}/>

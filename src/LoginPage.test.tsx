@@ -4,6 +4,7 @@ import { Typography } from '@mui/material'
 import LoginPage from './LoginPage'
 import { BrowserRouter } from 'react-router-dom';
 
+
 const renderHeader= () => {
     render(
       <BrowserRouter>
@@ -21,8 +22,9 @@ const renderHeader= () => {
     expect(element).toBeTruthy();
   });
   
-//   test("Testing login button", () => {
-//     render(<LoginPage />);
-//     const element = screen.getByTestId("login-button");
-//     expect(element).toBeTruthy();
-//   });
+  test("Testing login button", () => {
+    render(<LoginPage />);
+    // eslint-disable-next-line testing-library/await-async-query
+    const element = screen.findByRole("button",{name:"Log in"});
+    expect(element).toBeTruthy();
+  });
