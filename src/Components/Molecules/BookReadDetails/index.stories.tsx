@@ -8,9 +8,9 @@ const BookReadTimeStory = {
   component: BookReadTime,
 } as ComponentMeta<typeof BookReadTime>;
 
-const Template: ComponentStory<typeof BookReadTime> = (args) => (
+const Template: ComponentStory<typeof BookReadTime> = () => (
   <ThemeProvider theme={Theme}>
-    <BookReadTime {...args} />
+    <BookReadTime  />
   </ThemeProvider>
 );
 

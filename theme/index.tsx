@@ -37,9 +37,6 @@ import { makeStyles } from "@material-ui/core";
     fontweight: "400",
     lineheight: "23px",
     textalign: "left",
-
-
-
   },
   headerLink:{
     display: "flex", alignItems: "center", color: "#03314B" ,textTransform:"none",
@@ -214,13 +211,18 @@ width: "214px",
 
   },
   visible: {
-    
     position:"absolute",
-    height: "398px",
-    top: "100px",
-    background: "#F1F6F4",
+    height: "100%",
+    // top: "100px",
+    // background: "#F1F6F4",
     zIndex:1,
     width:"100%"
+    // position:"absolute",
+    // height: "398px",
+    // top: "100px",
+    // background: "#F1F6F4",
+    // zIndex:1,
+    // width:"100%"
   },
   hidden: {
     display: "none",

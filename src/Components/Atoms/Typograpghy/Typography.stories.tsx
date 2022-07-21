@@ -1,6 +1,6 @@
 import React from "react"
 import { ComponentStory } from "@storybook/react"
-import TypographyComponent from "./Typography";
+import TypographyComponent from "./TypographyComponent";
 import { ThemeProvider } from "@emotion/react"
 import {Theme} from "../../../Themes/Theme";
 

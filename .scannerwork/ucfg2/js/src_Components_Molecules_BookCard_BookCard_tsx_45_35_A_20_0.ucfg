@@ -1,0 +1,740 @@
+
+;src_Components_Molecules_BookCard_BookCard_tsx_45_35_A_20_0P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx-" -()"s2_1*Ól
+s2_1
+<synthetic> (qo
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx. 5(
+	%object_0Object"Objectà
+Ö
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx/ /(
+
+	%object_0Object"
+color"__id*	
+#03314Bä
+á
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx0 0(#
+
+	%object_0Object"
+
+fontWeight"__id*
+Boldà
+Ö
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx1 1(!
+
+	%object_0Object"
+
+fontSize"__id*
+20pxä
+á
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx2 2(#
+
+	%object_0Object"
+
+lineHeight"__id*
+23pxå
+â
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx3 3(&
+
+	%object_0Object"
+paddingBottom"__id*
+3pxé
+ã
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx4 4(#
+
+	%object_0Object"
+
+fontFamily"__id*
+
+Cera Proqo
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx6 >(
+	%object_1Object"Objectà
+Ö
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx7 7(
+
+	%object_1Object"
+color"__id*	
+#6D787Eâ
+Ü
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx8 8(#
+
+	%object_1Object"
+
+fontWeight"__id*
+400à
+Ö
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx9 9(!
+
+	%object_1Object"
+
+fontSize"__id*
+16pxä
+á
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx: :(#
+
+	%object_1Object"
+
+lineHeight"__id*
+20pxå
+â
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx; ;(&
+
+	%object_1Object"
+paddingBottom"__id*
+3pxâ
+Ü
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx< <(#
+
+	%object_1Object"
+
+paddingTop"__id*
+3pxé
+ã
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx= =(#
+
+	%object_1Object"
+
+fontFamily"__id*
+
+Cera Proqo
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx@	 G(
+	%object_2Object"Objectá
+Ñ
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxA A( 
+
+	%object_2Object"	
+display"__id*
+flexÖ
+Ç
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxB B(
+
+	%object_2Object"
+margin"__id*
+2pxó
+î
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxC C(#'
+
+	%object_2Object"
+justifyContent"__id*
+space-betweenå
+â
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxD D(#
+
+	%object_2Object"
+
+whiteSpace"__id*
+
+nowrapâ
+Ü
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxE E(#
+
+	%object_2Object"
+
+paddingTop"__id*
+6pxé
+ã
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxF F(#
+
+	%object_2Object"
+
+fontFamily"__id*
+
+Cera Proqo
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxH X(
+	%object_3Object"Objectá
+Ñ
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxI I( 
+
+	%object_3Object"	
+display"__id*
+flexå
+â
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxJ J(!
+
+	%object_3Object"
+
+position"__id*
+
+absoluteÑ
+Å
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxK K(
+
+	%object_3Object"
+left"__id*
+32pxÑ
+Å
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxM M(
+
+	%object_3Object"
+top"__id*	
+395pxé
+ã
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxO O(#
+
+	%object_3Object"
+
+fontFamily"__id*
+
+Cera Proã
+à
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxP P("
+
+	%object_3Object"
+	fontStyle"__id*
+
+normalâ
+Ü
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxQ Q(#
+
+	%object_3Object"
+
+fontWeight"__id*
+400à
+Ö
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxR R(!
+
+	%object_3Object"
+
+fontSize"__id*
+14pxä
+á
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxS S(#
+
+	%object_3Object"
+
+lineHeight"__id*
+18pxà
+Ö
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxT T(
+
+	%object_3Object"
+color"__id*	
+#6D787EÜ
+É
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxU U(
+
+	%object_3Object"
+height"__id*
+18pxÖ
+Ç
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxV V(
+
+	%object_3Object"
+width"__id*
+96pxé
+ã
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxW W(%
+
+	%object_3Object"
+borderRadius"__id*
+
+nullpxqo
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxZ
+ j(
+	%object_4Object"Objectá
+Ñ
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx[ [( 
+
+	%object_4Object"	
+display"__id*
+flexå
+â
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx\ \(!
+
+	%object_4Object"
+
+position"__id*
+
+absoluteÑ
+Å
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx] ](
+
+	%object_4Object"
+left"__id*
+56pxÑ
+Å
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx_ _(
+
+	%object_4Object"
+top"__id*	
+397pxé
+ã
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxa a(#
+
+	%object_4Object"
+
+fontFamily"__id*
+
+Cera Proã
+à
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxb b("
+
+	%object_4Object"
+	fontStyle"__id*
+
+normalâ
+Ü
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxc c(#
+
+	%object_4Object"
+
+fontWeight"__id*
+400à
+Ö
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxd d(!
+
+	%object_4Object"
+
+fontSize"__id*
+14pxä
+á
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxe e(#
+
+	%object_4Object"
+
+lineHeight"__id*
+18pxà
+Ö
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxf f(
+
+	%object_4Object"
+color"__id*	
+#6D787EÜ
+É
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxg g(
+
+	%object_4Object"
+height"__id*
+18pxÖ
+Ç
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxh h(
+
+	%object_4Object"
+width"__id*
+96pxé
+ã
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxi i(%
+
+	%object_4Object"
+borderRadius"__id*
+
+nullpxqo
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxk |(
+	%object_5Object"Objectá
+Ñ
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxl l( 
+
+	%object_5Object"	
+display"__id*
+flexå
+â
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxm m(!
+
+	%object_5Object"
+
+position"__id*
+
+absoluteÖ
+Ç
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxn n(
+
+	%object_5Object"
+left"__id*	
+200pxÑ
+Å
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxp p(
+
+	%object_5Object"
+top"__id*	
+395pxé
+ã
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxr r(#
+
+	%object_5Object"
+
+fontFamily"__id*
+
+Cera Proã
+à
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxs s("
+
+	%object_5Object"
+	fontStyle"__id*
+
+normalâ
+Ü
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxt t(#
+
+	%object_5Object"
+
+fontWeight"__id*
+400à
+Ö
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxu u(!
+
+	%object_5Object"
+
+fontSize"__id*
+14pxä
+á
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxv v(#
+
+	%object_5Object"
+
+lineHeight"__id*
+18pxà
+Ö
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxw w(
+
+	%object_5Object"
+color"__id*	
+#6D787EÜ
+É
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxx x(
+
+	%object_5Object"
+height"__id*
+18pxÖ
+Ç
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxy y(
+
+	%object_5Object"
+width"__id*
+96pxé
+ã
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxz z(%
+
+	%object_5Object"
+borderRadius"__id*
+
+nullpxrp
+Q
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx} ç(
+	%object_6Object"Objectá
+Ñ
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx~ ~( 
+
+	%object_6Object"	
+display"__id*
+flexå
+â
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx (!
+
+	%object_6Object"
+
+position"__id*
+
+absoluteá
+Ñ
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxÄ Ä(
+
+	%object_6Object"
+left"__id*	
+225pxÜ
+É
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxÇ Ç(
+
+	%object_6Object"
+top"__id*	
+397pxê
+ç
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxÑ Ñ(#
+
+	%object_6Object"
+
+fontFamily"__id*
+
+Cera Proç
+ä
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxÖ Ö("
+
+	%object_6Object"
+	fontStyle"__id*
+
+normalã
+à
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxÜ Ü(#
+
+	%object_6Object"
+
+fontWeight"__id*
+400ä
+á
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxá á(!
+
+	%object_6Object"
+
+fontSize"__id*
+14pxå
+â
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxà à(#
+
+	%object_6Object"
+
+lineHeight"__id*
+18pxä
+á
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxâ â(
+
+	%object_6Object"
+color"__id*	
+#6D787Eà
+Ö
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxä ä(
+
+	%object_6Object"
+height"__id*
+18pxá
+Ñ
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxã ã(
+
+	%object_6Object"
+width"__id*
+96pxê
+ç
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxå å(%
+
+	%object_6Object"
+borderRadius"__id*
+
+nullpxsq
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxé ö(
+	%object_7Object"Objectâ
+Ü
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxè è( 
+
+	%object_7Object"	
+display"__id*
+flexä
+á
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxê ê(
+
+	%object_7Object"
+color"__id*	
+#0365F2Ü
+É
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxë ë(
+
+	%object_7Object"
+top"__id*	
+427pxá
+Ñ
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxí í(
+
+	%object_7Object"
+left"__id*	
+120pxé
+ã
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxì ì(!
+
+	%object_7Object"
+
+position"__id*
+
+absoluteë
+é
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxî î(&
+
+	%object_7Object"
+textAlignment"__id*
+
+centreê
+ç
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxï ï(#
+
+	%object_7Object"
+
+fontFamily"__id*
+
+Cera Proç
+ä
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxñ ñ("
+
+	%object_7Object"
+	fontStyle"__id*
+
+normalã
+à
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxó ó(#
+
+	%object_7Object"
+
+fontWeight"__id*
+500ä
+á
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxò ò(!
+
+	%object_7Object"
+
+fontSize"__id*
+16pxå
+â
+R
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxô ô(#
+
+	%object_7Object"
+
+lineHeight"__id*
+20pxrp
+Q
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx-) ú(
+	%object_8Object"Objectò
+ï
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx. 5($
+
+	%object_8Object"
+titleOfBook"__id*
+
+	%object_0Objectó
+î
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx6 >(#
+
+	%object_8Object"
+
+authorName"__id*
+
+	%object_1Objectí
+è
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx@ G(
+
+	%object_8Object"
+Reads"__id*
+
+	%object_2Objectï
+í
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxH X(!
+
+	%object_8Object"
+
+timeText"__id*
+
+	%object_3Objectî
+ë
+N
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxZ j("
+
+	%object_8Object"
+	timeText1"__id*
+
+	%object_4Objectï
+í
+N
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxk |(#
+
+	%object_8Object"
+
+personText"__id*
+
+	%object_5Objectó
+î
+O
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx} ç($
+
+	%object_8Object"
+personText1"__id*
+
+	%object_6Objectì
+ê
+P
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsxé ö(
+
+	%object_8Object"
+finish"__id*
+
+	%object_7Object"j
+Q
+F/home/sahiM/starter-app/src/Components/Molecules/BookCard/BookCard.tsx-) ú(
+
+	%object_8Object:
+%envB 

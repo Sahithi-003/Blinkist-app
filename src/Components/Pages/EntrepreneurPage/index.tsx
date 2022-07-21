@@ -1,11 +1,12 @@
 import React,{useState,useEffect} from 'react';
-//import EntrepreneurOrganism from '../../Organisms/EntrepreneurOrgan/CardState.tsx';
-import CardStateTrending from '../../Organisms/EntrepreneurOrgan/CardState';
+import CardStateTrending from '../../Organisms/EntrepreneurOrgan/CardStateTrending';
 import Footer from '../../Organisms/Footer/Footer';
 import Header from '../../Organisms/Header/Header';
 import ParentTemplate from '../../Templates/rootTemplate';
+import {Box, Typography} from "@mui/material"
 import axios from "axios"
-import {Typography} from "@mui/material"
+import Banner from '../../Organisms/Banner/Banner'
+import SearchBar from '../../Organisms/searchBar/SearchBar'
 
 type data = {
     id: number;
@@ -22,20 +23,11 @@ type data = {
     status: string;
     category:string;
 };
-interface Props {
-    type: string;
-    onFinishedClick:(arg:data)=>void;
-    books:Array<data>;
-    book: any; 
-    setData: any 
-  }
-// const Entrepreneurship = (props: { book: data[]; setData: any }) => {
 const EntrepreneurshipPage = () => {
   const [bookData, setBookData] = useState<data[]>([]);
    
   useEffect(() => {
     
-    const axios = require("axios").default;
   
     axios({
       method: "get",
@@ -48,29 +40,29 @@ const EntrepreneurshipPage = () => {
   }, []);
 
   return (
+    <React.Fragment>
     <ParentTemplate
       header={<Header></Header>}
       body={
-        // <EntrepreneurOrganism bookObject={bookData}></EntrepreneurOrganism>
-        <div>
-         <Typography variant="h5" >Trending blinks</Typography>
-        <CardStateTrending type={'trendingBlinks'} onFinishedClick={function (arg: data): void {
-          throw new Error('Function not implemented.');
-        } } books={bookData} />
-        <Typography variant="h5">Just added</Typography>
-         <CardStateTrending type={'JustAdd'} onFinishedClick={function (arg: data): void {
-          throw new Error('Function not implemented.');
-        } } books={bookData} />
-        <Typography variant="h5">Featured audioBlinks</Typography>
-        <CardStateTrending type={'featured'} onFinishedClick={function (arg: data): void {
-          throw new Error('Function not implemented.');
-        } } books={bookData} />
-        </div>
+        
+        <Box style={{display:'flex', flexDirection:'column', width:'1000px'}}>
+          <Banner/>
+        <SearchBar/>
+         <Typography variant="h5" fontFamily={"Cera Pro"} fontWeight={"medium"}>Trending blinks</Typography>
+        <CardStateTrending type={'trendingBlinks'} onFinishedClick={handleClick } books={bookData} />
+        <Typography variant="h5" fontFamily="Cera Pro" fontWeight={"medium"}>Just added</Typography>
+         <CardStateTrending type={'JustAdd'} onFinishedClick={handleClick } books={bookData} />
+        <Typography variant="h5" fontFamily={"Cera Pro"} fontWeight={"medium"}>Featured audio Blinks</Typography>
+        <CardStateTrending type={'featured'} onFinishedClick={handleClick } books={bookData} />
+        </Box>
   
       }
       footer={<Footer></Footer>}
     />
+    </React.Fragment>
   );
 };
 export default EntrepreneurshipPage;
 
+
+const handleClick = (_arg: any) => {};

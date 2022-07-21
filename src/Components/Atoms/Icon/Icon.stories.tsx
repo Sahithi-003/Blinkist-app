@@ -1,22 +1,3 @@
-// import React from 'react';
-// import Icon from './Icon';
-// import { ComponentStory } from '@storybook/react';
-// import Add from "./../../../stories/assets/Icons/add.svg";
-
-
-
-
-// export default {
-//     title:"Atoms/Icons",
-//     component:Icon,
-// };
-
-// const Template:ComponentStory<typeof Icon> = args => (<Icon {...args}/>);
-
-// export const add = Template.bind({});
-// add.args={
-//     src:Add
-// }
 
 import { ComponentStory } from "@storybook/react";
 import Icon from "./Icon";

@@ -1,11 +1,10 @@
-import React from 'react'
+
 import RootTemplate from '../../Templates/rootTemplate'
 import Header from '../../Organisms/Header/Header'
 import Footer from '../../Organisms/Footer/Footer'
-import Tabs from '../../Molecules/Tabs/Tabs'
-import { Typography } from '@mui/material'
-import {useState,useEffect} from 'react';
-import axios from "axios";
+import Tabs from '../../Molecules/Tabs/BlinkistTabs'
+import { Box, Typography } from '@mui/material'
+import React,{useState,useEffect} from 'react';
 
 type data = {
   id:number,
@@ -46,22 +45,22 @@ const MyLibPage = () => {
       })
       .catch((error: any) => console.log(error));
   }, []);
-  console.log(`hey ${bookData[1]}`)
-  const classes=useStyles;
+
   return (
+    <React.Fragment>
     <RootTemplate
       header={<Header></Header>}
       body={
-        <div>
-          <Typography variant='h5'>My Library</Typography> 
-          {/* <Tabs value={'1'} onFinishedClick={() => handleClick(setBookData)} bookObject={bookData}/> */}
-          <Tabs value={'1'} bookObject={bookData} onFinishedClick={()=>setBookData} />
-        </div>
+        <Box style={{display:'flex', flexDirection:'column',width:'1100px',paddingLeft:'5%'}}>
+        
+          <Typography variant='h5' fontFamily="Cera Pro" fontWeight={"medium"} fontSize="36px" paddingBottom={"3%"} paddingLeft={"2%"}>My Library</Typography> 
+          <Tabs value={'1'} bookObject={bookData} onFinishedClick={()=>setBookData} data-testid="tabs" />
+        </Box>
       }
       footer={<Footer></Footer>}
     />
+    </React.Fragment>
   );
 }
 
 export default MyLibPage;
-const handleClick = (arg: any) => {};

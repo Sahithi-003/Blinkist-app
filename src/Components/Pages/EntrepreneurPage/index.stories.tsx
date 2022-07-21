@@ -6,7 +6,7 @@ export default {
   title: 'pages / enterpreuner',
   component: EntrepreneurshipPage,
 };
-const Template: ComponentStory<typeof EntrepreneurshipPage> = (args) => (
+const Template: ComponentStory<typeof EntrepreneurshipPage> = () => (
   <Router>
     <EntrepreneurshipPage />
   </Router>

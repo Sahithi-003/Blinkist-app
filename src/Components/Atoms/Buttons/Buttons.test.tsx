@@ -1,7 +1,7 @@
 import {render,screen } from '@testing-library/react'
-import Button from './ButtonComponent'
-import * as ReactDOM from "react-dom"
+import Button from './ReadAndFinished'
 import { Typography } from '@mui/material'
+import Buttons from './Buttons'
 
 describe('button tests',()=>{
     let container:HTMLDivElement
@@ -26,4 +26,51 @@ it('renders Typography',()=>{
     
 })
 
+it('renders button', () => {
+    render(<Buttons name={''} onClick={undefined} classing={''} icon={undefined} end={undefined}></Buttons>);
+    
+    const buttons = screen.getByRole('button');
+    expect(buttons).toBeTruthy();
+  });
 
+  it("Check for Connect Button", async()=>{
+    render(<Buttons name={"Connect"} onClick={undefined} classing={"connect"} icon={undefined} end={undefined}/>);
+    const MuiElement = screen.getByText(/Connect/i);
+    expect(MuiElement).toBeInTheDocument();
+})
+
+it("Check for Explore Button", async()=>{
+    render(<Buttons name={"Connect"} onClick={undefined} classing={"explore"} icon={undefined} end={undefined}/>);
+    const MuiElement = screen.getByText(/Connect/i);
+    expect(MuiElement).toBeInTheDocument();
+})
+
+it("Check for library Button", async()=>{
+    render(<Buttons name={"Connect"} onClick={undefined} classing={"library"} icon={undefined} end={undefined}/>);
+    const MuiElement = screen.getByText(/Connect/i);
+    expect(MuiElement).toBeInTheDocument();
+})
+
+it("Check for ExploreNoH Button", async()=>{
+    render(<Buttons name={"Connect"} onClick={undefined} classing={"exploreNoH"} icon={undefined} end={undefined}/>);
+    const MuiElement = screen.getByText(/Connect/i);
+    expect(MuiElement).toBeInTheDocument();
+})
+
+it("Check for finished Button", async()=>{
+    render(<Buttons name={"Connect"} onClick={undefined} classing={"finished"} icon={undefined} end={undefined}/>);
+    const MuiElement = screen.getByText(/Connect/i);
+    expect(MuiElement).toBeInTheDocument();
+})
+
+it("Check for reading Button", async()=>{
+    render(<Buttons name={"Connect"} onClick={undefined} classing={"readNow"} icon={undefined} end={undefined}/>);
+    const MuiElement = screen.getByText(/Connect/i);
+    expect(MuiElement).toBeInTheDocument();
+})
+
+it("Check for readAgain Button", async()=>{
+    render(<Buttons name={"Connect"} onClick={undefined} classing={"readAgain"} icon={undefined} end={undefined}/>);
+    const MuiElement = screen.getByText(/Connect/i);
+    expect(MuiElement).toBeInTheDocument();
+})

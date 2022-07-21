@@ -63,4 +63,4 @@ LibraryCards.args = {
 
 export default CardState;
 
-const handleClick = (arg: any) => {};
+const handleClick = (_arg: any) => {};

@@ -1,7 +1,7 @@
 import { cleanup, render, screen } from "@testing-library/react";
 import React from "react";
 import { MemoryRouter } from "react-router-dom";
-import TypographyComponent from "./Typography";
+import TypographyComponent from "./TypographyComponent";
 
 
 afterEach(cleanup);
@@ -54,4 +54,24 @@ it("renders Typography default", () => {
 
   expect(button).toBeTruthy();
   expect(button).toHaveClass("MuiTypography-h5");
+});
+
+it("renders Typography sub", () => {
+  render(<TypographyComponent children="subtitle" variant="title" />, {
+    wrapper: MemoryRouter,
+  });
+  const button = screen.getByText("subtitle");
+
+  expect(button).toBeTruthy();
+  expect(button).toHaveClass("MuiTypography-subtitle1");
+});
+
+it("renders Typography body", () => {
+  render(<TypographyComponent children="subtitle" variant="body1" />, {
+    wrapper: MemoryRouter,
+  });
+  const button = screen.getByText("subtitle");
+
+  expect(button).toBeTruthy();
+  expect(button).toHaveClass("MuiTypography-body1");
 });

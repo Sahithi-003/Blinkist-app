@@ -1,9 +1,8 @@
 import { Box } from '@mui/material'
 import BookCard from "../BookCard/BookCard"
-import { useNavigate } from "react-router-dom";
 interface TabsandCardStateProps {
   type: string;
-  onFinishedClick:(arg:Book)=>void;
+  onFinishedClick:()=>void;
   books:Array<Book>;
 }
 
@@ -25,14 +24,7 @@ type Book = {
 
 const TabsandCardState = (props:TabsandCardStateProps) => {
   const {type} = props
-  let navigate = useNavigate();
-  const handleFinishedClick = (book: Book) => {
-    console.log("from enreprenuship page");
-    console.log(book);
-    navigate("/", {
-      state: { tab: "2", book: book, bookObjectFromState: props.books },
-    });
-  };
+  
   return (
     <Box
       sx={{
@@ -49,8 +41,9 @@ const TabsandCardState = (props:TabsandCardStateProps) => {
             {(type === status ) &&
             <BookCard
           //  key={book.author+book.title}
-            onFinishedClick={() => props.onFinishedClick(book)}
+            onFinishedClick={props.onFinishedClick}
             // onFinishedClick={handleFinishedClick}
+            data-testid="click"
               book={book}
               typeOfCard={props.type} 
               bookObject={props.books}/>

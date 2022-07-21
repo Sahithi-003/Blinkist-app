@@ -5,24 +5,20 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 
 
-interface BookReadTimeProps {
-  children?: string;
-  variant?: "header" | "title" | "subtitle" | "body" | "caption";
-}
 
-const BookReadTime = (props: BookReadTimeProps) => (
+const BookReadTime = () => (
   <div style={{ display: "flex", alignItems: "center" , flexWrap:"nowrap"}}>
     <AccessTimeIcon fontSize="small" color="action" />
-    <Typography variant="body1" color="gray" fontSize="14px">
+    <Typography fontFamily="Cera Pro" variant="body1" color="gray" fontSize="14px" paddingLeft={"5px"}>
       13-minute&nbsp;read
     </Typography>
   </div>
 );
 
-export const TotalReads = (props: BookReadTimeProps) => (
+export const TotalReads = () => (
   <div style={{ display: "flex", alignItems: "center" }}>
     <PersonOutlineIcon fontSize="small" color="action" />
-    <Typography variant="body1" color="gray" fontSize="14px">
+    <Typography variant="body1" color="gray" fontSize="14px" fontFamily="Cera Pro" paddingLeft={"5px"}>
       1.9k reads
     </Typography>
   </div>

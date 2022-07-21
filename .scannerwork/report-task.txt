@@ -1,0 +1,7 @@
+organization=sahithi-003
+projectKey=sahithi-blinkist
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.30262
+dashboardUrl=https://sonarcloud.io/dashboard?id=sahithi-blinkist
+ceTaskId=AYIXrx1mP6kiJCRA1c9-
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYIXrx1mP6kiJCRA1c9-

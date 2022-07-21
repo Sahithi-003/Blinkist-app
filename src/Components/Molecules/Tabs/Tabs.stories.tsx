@@ -4,7 +4,7 @@ import { ThemeProvider } from "@emotion/react";
 import {Theme} from "../../../Themes/Theme";
 import { getBooks } from "../../../../DataBase/DataBase";
 import { MemoryRouter } from "react-router-dom";
-import BlinkistTabs from "./Tabs";
+import BlinkistTabs from "./BlinkistTabs";
 
 const Tabs = {
   title: "Organisms/Tabs",
@@ -33,4 +33,4 @@ CurrentlyReadingTab.args = {
 
 export default Tabs;
 
-const handleClick = (arg: any) => {};
+const handleClick = (_arg: any) => {};
